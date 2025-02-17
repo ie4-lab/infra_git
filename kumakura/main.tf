@@ -1,7 +1,7 @@
-module "name" {
+module "kumakura" {
   source = "../../modules"
     env  = "iac"
-    name = "name"
+    name = "kumakura"
 
     vpc_cidr = "10.0.0.0/16"
     pri_subnet_count = "3"
